@@ -1,7 +1,5 @@
 "use client";
 
-import { useEffect } from "react";
-
 import Footer from "@/components/shared/Footer";
 import ContactHero from "@/components/contact/ContactHero";
 import ContactInfoCards from "@/components/contact/ContactInfoCards";
@@ -20,9 +18,6 @@ export const metadata: Metadata = {
 };
 
 const Contact = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
 
     return (
         <div className="min-h-screen bg-white text-[#202020] font-sans pt-24">
