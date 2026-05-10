@@ -1,5 +1,3 @@
-"use client";
-
 import Footer from "@/components/shared/Footer";
 import ContactHero from "@/components/contact/ContactHero";
 import ContactInfoCards from "@/components/contact/ContactInfoCards";
