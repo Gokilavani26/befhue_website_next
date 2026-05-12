@@ -133,9 +133,9 @@ const LogoStyles = () => {
                                 </div>
                             )}
 
-                            <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:bg-[#ff002b] group-hover:border-[#ff002b] transition-all">
+                            {/* <div className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center group-hover:bg-[#ff002b] group-hover:border-[#ff002b] transition-all">
                                 <span className="text-2xl pb-1">→</span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 ))}

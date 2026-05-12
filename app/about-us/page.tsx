@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description:
         "Befhue is a video production company in Coimbatore and digital marketing delivering creative branding, promotional videos and online growth services.",
     alternates: {
-        canonical: "https://www.befhue.com/",
+        canonical: "https://www.befhue.com/about-us",
     },
 };
 

@@ -1,8 +1,10 @@
 "use client";
 
 import { ArrowRight, Download } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 const BrandHero = () => {
+    const router = useRouter();
     return (
         <section className="relative max-w-7xl mx-auto px-6 py-20 flex flex-col lg:flex-row items-center gap-16">
             {/* Left Content */}
@@ -15,8 +17,10 @@ const BrandHero = () => {
                     Company in Coimbatore
                 </h1>
 
-                <button className="flex items-center gap-3 px-8 py-4 rounded-full border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition-all group">
-                    Look at Our Newest Project
+                <button
+                    onClick={() => router.push("/contact")}
+                    className="flex items-center gap-3 px-8 py-4 rounded-full border border-white/20 bg-white/5 backdrop-blur-md hover:bg-white/10 transition-all group">
+                    Get Started
 
                     <ArrowRight className="group-hover:translate-x-1 transition-transform" />
                 </button>

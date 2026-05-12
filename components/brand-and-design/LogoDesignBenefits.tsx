@@ -195,13 +195,13 @@ const LogoDesignBenefits = () => {
                                 {benefit.description}
                             </p>
 
-                            <button className="flex items-center gap-2 font-bold text-[#ff002b] group">
+                            {/* <button className="flex items-center gap-2 font-bold text-[#ff002b] group">
                                 Explore this style
 
                                 <span className="text-2xl transition-transform group-hover:translate-x-2">
                                     →
                                 </span>
-                            </button>
+                            </button> */}
                         </div>
                     </motion.div>
                 ))}

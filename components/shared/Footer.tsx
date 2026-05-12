@@ -1,13 +1,11 @@
 "use client";
 
+import { Mail, Phone, MapPin, Mail as MailIcon } from 'lucide-react';
 import {
-    Mail,
-    Phone,
-    // InstagramIcon,
-    // LinkedinIcon,
-    // FacebookIcon,
-    Mail as MailIcon,
-} from "lucide-react";
+    FaInstagram,
+    FaLinkedinIn,
+    FaFacebookF,
+} from "react-icons/fa";
 
 import { usePathname } from "next/navigation";
 
@@ -31,7 +29,7 @@ const Footer = () => {
                         <Mail size={12} className="text-black" />
                     </div>
 
-                    <span>info@befhue.com</span>
+                    <a href="mailto:info@befhue.com">info@befhue.com</a>
                 </div>
 
                 {/* Phone */}
@@ -40,7 +38,7 @@ const Footer = () => {
                         <Phone size={12} className="text-black" />
                     </div>
 
-                    <span>+91 9342470592</span>
+                    <a href="tel:+919342470592">+91 9342470592</a>
                 </div>
             </div>
 
@@ -53,18 +51,18 @@ const Footer = () => {
 
                 <div className="flex flex-wrap justify-center gap-3">
                     {[
-                        // {
-                        //     Icon: InstagramIcon,
-                        //     href: "https://www.instagram.com/befhue/",
-                        // },
-                        // {
-                        //     Icon: LinkedinIcon,
-                        //     href: "https://in.linkedin.com/company/befhue",
-                        // },
-                        // {
-                        //     Icon: FacebookIcon,
-                        //     href: "https://www.facebook.com/61570272629729/",
-                        // },
+                        {
+                            Icon: FaInstagram,
+                            href: "https://www.instagram.com/befhue/",
+                        },
+                        {
+                            Icon: FaLinkedinIn,
+                            href: "https://in.linkedin.com/company/befhue",
+                        },
+                        {
+                            Icon: FaFacebookF,
+                            href: "https://www.facebook.com/61570272629729/",
+                        },
                         {
                             Icon: MailIcon,
                             href: "mailto:info@befhue.com",
