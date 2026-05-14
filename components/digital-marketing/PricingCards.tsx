@@ -82,9 +82,9 @@ const PricingCards = () => {
                 {/* Heading */}
                 <div className="mb-16 space-y-6 text-center">
 
-                    <h2 className="text-4xl font-bold text-zinc-900 md:text-5xl">
+                    <h4 className="text-4xl font-bold text-zinc-900 md:text-5xl">
                         Flexible Plans
-                    </h2>
+                    </h4>
 
                     <p className="mx-auto max-w-2xl text-lg text-zinc-500">
                         Choose a plan that fits your business needs and
@@ -159,9 +159,9 @@ const PricingCards = () => {
                             )}
 
                             {/* Plan Name */}
-                            <h3 className="mb-4 text-2xl font-bold">
+                            <h4 className="mb-4 text-2xl font-bold">
                                 {plan.name}
-                            </h3>
+                            </h4>
 
                             {/* Price */}
                             <div className="mb-6 flex items-baseline gap-1">

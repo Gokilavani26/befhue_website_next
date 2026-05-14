@@ -163,9 +163,9 @@ const DigitalMarketingPage = () => {
                 <div className="mb-16 flex flex-col items-end justify-between gap-4 md:flex-row">
 
                     <div className="max-w-xl">
-                        <h2 className="mb-6 text-4xl font-bold md:text-5xl">
+                        <h5 className="mb-6 text-4xl font-bold md:text-5xl">
                             Our Expertise
-                        </h2>
+                        </h5>
 
                         <p className="text-lg text-zinc-500">
                             We provide a full suite of digital marketing
@@ -201,9 +201,9 @@ const DigitalMarketingPage = () => {
                                     />
                                 </div>
 
-                                <h4 className="mb-4 text-xl font-bold text-[#202020]">
+                                <h5 className="mb-4 text-xl font-bold text-[#202020]">
                                     {service.title}
-                                </h4>
+                                </h5>
 
                                 <p className="flex-grow text-sm leading-relaxed text-zinc-500">
                                     {service.description}
@@ -235,9 +235,9 @@ const DigitalMarketingPage = () => {
             <section className="mx-6 mb-12 rounded-[3rem] bg-zinc-900 px-6 py-24 text-white">
                 <div className="mx-auto max-w-4xl space-y-8 text-center">
 
-                    <h2 className="font-denton text-4xl font-bold italic md:text-6xl">
+                    <h5 className="font-denton text-4xl font-bold italic md:text-6xl">
                         Ready to grow your brand?
-                    </h2>
+                    </h5>
 
                     <p className="mx-auto max-w-xl text-lg text-zinc-400">
                         Let's collaborate on a strategy that works for you.

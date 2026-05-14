@@ -89,9 +89,9 @@ const VideoPurpose = () => {
                                 {pillar.icon}
                             </div>
 
-                            <h3 className="text-3xl font-bold text-[#202020]">
+                            <h5 className="text-3xl font-bold text-[#202020]">
                                 {pillar.title}
-                            </h3>
+                            </h5>
 
                             <p className="text-gray-600 leading-relaxed">
                                 {pillar.description}
