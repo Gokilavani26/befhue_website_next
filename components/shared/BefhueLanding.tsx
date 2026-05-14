@@ -9,9 +9,9 @@ const BefhueLanding = () => {
             <main className="flex flex-col items-center justify-center flex-grow overflow-hidden px-4">
                 <div className="text-center w-full">
                     {/* Main Logo Text */}
-                    <h2 className="bef-red text-[5rem] sm:text-[8rem] md:text-[12rem] lg:text-[18rem] font-[1000] tracking-[-0.08em] leading-none uppercase w-full">
+                    <h5 className="bef-red text-[5rem] sm:text-[8rem] md:text-[12rem] lg:text-[18rem] font-[1000] tracking-[-0.08em] leading-none uppercase w-full">
                         befhue
-                    </h2>
+                    </h5>
 
                     {/* Subtitle */}
                     <div className="mt-2 md:mt-[-2rem] relative inline-block">

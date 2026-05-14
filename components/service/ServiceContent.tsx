@@ -96,7 +96,7 @@ const ServiceContent = ({
                                                     }
                                                     className="text-base md:text-lg leading-relaxed flex items-start gap-2 text-[#202020]"
                                                 >
-                                                    <span className="mt-1 flex-shrink-0 w-2 h-2 rounded-full bg-[#ff002b]" />
+                                                    <span className="mt-1 flex-shrink-0 w-2 h-2" />
 
                                                     {
                                                         bullet

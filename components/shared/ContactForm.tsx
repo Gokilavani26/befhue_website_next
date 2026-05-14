@@ -67,9 +67,9 @@ const ContactForm = () => {
             {/* Main Content */}
             <main className="relative z-10 flex flex-col items-center justify-center px-4 pb-20">
                 <div className="text-center max-w-3xl mb-12">
-                    <h1 className="text-4xl md:text-[54px] font-bold mb-6 tracking-tight leading-tight">
+                    <h3 className="text-4xl md:text-[54px] font-bold mb-6 tracking-tight leading-tight">
                         Let's Create Something <span className="bef-red italic font-serif">Amazing</span>
-                    </h1>
+                    </h3>
                     <p className="text-zinc-300 text-lg md:text-xl font-medium opacity-90 max-w-2xl mx-auto">
                         Ready to transform your vision into reality? Get in touch with our team and let's discuss your next project.
                     </p>
@@ -77,7 +77,7 @@ const ContactForm = () => {
 
                 {/* The Card */}
                 <div className="bg-white text-zinc-900 w-full max-w-[800px] rounded-[2.5rem] p-10 md:p-16 shadow-[0_25px_80px_rgba(0,0,0,0.5)]">
-                    <h2 className="text-[42px] font-black mb-10 tracking-tight text-gray-950">Get In Touch</h2>
+                    <h5 className="text-[42px] font-black mb-10 tracking-tight text-gray-950">Get In Touch</h5>
 
                     <form onSubmit={onSubmit} className="space-y-8">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

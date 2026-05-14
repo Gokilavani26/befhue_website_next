@@ -94,9 +94,9 @@ const StatsCounter = () => {
                                 {stat.icon}
                             </div>
                         </div>
-                        <h3 className="text-4xl md:text-5xl font-bold mb-2">
+                        <h4 className="text-4xl md:text-5xl font-bold mb-2">
                             {counts[index]}{stat.suffix}
-                        </h3>
+                        </h4>
                         <p className="text-zinc-400 text-sm md:text-base font-medium uppercase tracking-wider">
                             {stat.label}
                         </p>

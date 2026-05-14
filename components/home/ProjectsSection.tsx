@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { projectsData as projects, type Project } from "@/data/projectVideoData";
+import { Link } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 type ProjectCardProps = {
     project: Project;
@@ -56,6 +58,7 @@ const ProjectsSection = () => {
         ...duplicatedProjects,
     ].reverse();
 
+    const router = useRouter();
     return (
         <div
             id="projects"
@@ -63,9 +66,9 @@ const ProjectsSection = () => {
         >
             {/* Header */}
             <div className="max-w-4xl mx-auto text-center mb-16 px-6">
-                <h2 className="text-5xl md:text-6xl font-denton mb-6 italic tracking-tight">
+                <h5 className="text-5xl md:text-6xl font-denton mb-6 italic tracking-tight">
                     Our Projects
-                </h2>
+                </h5>
 
                 <p className="text-zinc-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
                     From branding to motion,
@@ -130,8 +133,10 @@ const ProjectsSection = () => {
             </div>
 
             {/* Button */}
+
             <div className="mt-20 flex justify-center px-6">
                 <motion.button
+                    onClick={() => router.push("/portfolio")}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
                     className="bg-[#ff002b] text-white px-10 py-4 rounded-full font-denton text-lg md:text-xl font-bold italic tracking-wider shadow-[0_0_20px_rgba(255,0,43,0.3)] hover:shadow-[0_0_30px_rgba(255,0,43,0.5)] transition-all duration-300"

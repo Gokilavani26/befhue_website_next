@@ -14,7 +14,7 @@ const PhilosophySection = () => {
                             viewport={{ once: true }}
                             className="space-y-6"
                         >
-                            <h2 className="text-4xl md:text-5xl font-bold leading-tight">Our Journey & Philosophy</h2>
+                            <h3 className="text-4xl md:text-5xl font-bold leading-tight">Our Journey & Philosophy</h3>
                             <p className="text-zinc-600 text-lg leading-relaxed font-medium">
                                 Based in the industrial hub of Coimbatore, Befhue was born out of a desire to bridge the gap
                                 between complex engineering and aesthetic storytelling. We believe that your website or app

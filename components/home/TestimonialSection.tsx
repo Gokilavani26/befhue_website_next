@@ -95,13 +95,13 @@ const TestimonialSection = () => {
 
             {/* Header Section */}
             <div className="relative z-10 text-center mb-16 md:mb-20 px-4">
-                <h2 className="text-5xl md:text-[84px] font-black tracking-tighter text-gray-950 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
+                <h3 className="text-5xl md:text-[84px] font-black tracking-tighter text-gray-950 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
                     Client’s Feedback
                     <div className="flex flex-row md:flex-col gap-2 mt-0 md:mt-2">
                         <div className="w-10 md:w-14 h-[3px] bg-purple-700/30"></div>
                         <div className="w-10 md:w-14 h-[3px] bg-purple-700/30"></div>
                     </div>
-                </h2>
+                </h3>
             </div>
 
             {/* Slider Container */}

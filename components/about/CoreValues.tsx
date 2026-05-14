@@ -31,7 +31,7 @@ const CoreValues = () => {
         <section className="py-24 bg-zinc-50">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold mb-6">Our Core Pillars</h2>
+                    <h4 className="text-4xl md:text-5xl font-bold mb-6">Our Core Pillars</h4>
                     <p className="text-zinc-500 text-lg">The foundational principles that guide every project we undertake at Befhue.</p>
                 </div>
 

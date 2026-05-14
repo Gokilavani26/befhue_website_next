@@ -26,14 +26,14 @@ const MarketingTemplate = () => {
                         </span>
                     </div>
 
-                    <h1 className="text-5xl md:text-7xl font-bold leading-tight">
+                    <h2 className="text-5xl md:text-7xl font-bold leading-tight">
                         Transforming <br />
                         Businesses with <br />
                         <span className="text-[#ff002b]">
                             Strategic
                         </span>{" "}
                         Marketing
-                    </h1>
+                    </h2>
 
                     <p className="text-gray-600 max-w-lg text-lg leading-relaxed">
                         At BEFHUE, we combine creative excellence
@@ -80,9 +80,9 @@ const MarketingTemplate = () => {
                             Monthly Traffic
                         </p>
 
-                        <h3 className="text-4xl font-bold mt-1">
+                        <h5 className="text-4xl font-bold mt-1">
                             100 K
-                        </h3>
+                        </h5>
 
                         <p className="text-[#ff002b] font-bold mt-2 flex items-center gap-1">
                             <span className="text-xl">↑</span> +70%
