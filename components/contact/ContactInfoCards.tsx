@@ -7,7 +7,7 @@ const contactInfo = [
         icon: <MapPin className="text-[#ff002b]" size={24} />,
         title: "Visit Our Studio",
         details: ["Coimbatore, Tamil Nadu", "India - 641001"],
-        link: "https://maps.google.com"
+        link: "https://maps.app.goo.gl/7opxoR18zRih1r8m7"
     },
     {
         icon: <Phone className="text-[#ff002b]" size={24} />,
@@ -33,7 +33,7 @@ const ContactInfoCards = () => {
     return (
         <section className="py-24 bg-zinc-50 border-y border-zinc-100">
             <div className="max-w-7xl mx-auto px-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {contactInfo.map((info, index) => (
                         <motion.a
                             href={info.link}
