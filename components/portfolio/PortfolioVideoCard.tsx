@@ -1,4 +1,6 @@
 "use client";
+
+import { useState } from "react";
 import Image from "next/image";
 
 export default function PortfolioVideoCard({
@@ -14,7 +16,7 @@ export default function PortfolioVideoCard({
     isPlaying: boolean;
     onPlay: () => void;
 }) {
-
+    const [loading, setLoading] = useState(false);
 
     return (
         <div className="rounded-3xl overflow-hidden bg-zinc-900 border border-zinc-800">
@@ -36,7 +38,10 @@ export default function PortfolioVideoCard({
 
                         {/* Play Button */}
                         <button
-                            onClick={onPlay}
+                            onClick={() => {
+                                setLoading(true);
+                                onPlay();
+                            }}
                             className="absolute inset-0 flex items-center justify-center"
                         >
                             <div className="w-20 h-20 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center border border-white/20 hover:scale-110 transition-transform duration-300">
@@ -47,26 +52,28 @@ export default function PortfolioVideoCard({
                         </button>
                     </>
                 ) : (
-                    <video
-                        src={video.url}
-                        controls
-                        autoPlay
-                        playsInline
-                        className="w-full h-auto object-cover"
-                    />
+                    <div className="relative">
+                        {/* Loader */}
+                        {loading && (
+                            <div className="absolute inset-0 z-10 flex items-center justify-center bg-black/40">
+                                <div className="w-12 h-12 border-4 border-white/30 border-t-white rounded-full animate-spin" />
+                            </div>
+                        )}
+
+                        <video
+                            src={video.url}
+                            controls
+                            autoPlay
+                            playsInline
+                            className="w-full h-auto object-cover"
+                            onLoadStart={() => setLoading(true)}
+                            onCanPlay={() => setLoading(false)}
+                            onWaiting={() => setLoading(true)}
+                            onPlaying={() => setLoading(false)}
+                        />
+                    </div>
                 )}
             </div>
-
-            {/* Footer */}
-            {/* <div className="p-5 flex items-center justify-between">
-                <span className="text-sm text-zinc-400 uppercase tracking-wider">
-                    {video.category}
-                </span>
-
-                <span className="text-[#ff002b] text-sm font-medium">
-                    Befhue
-                </span>
-            </div> */}
         </div>
     );
 }

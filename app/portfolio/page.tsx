@@ -31,19 +31,6 @@ export default function PortfolioPage() {
 
             {/* Grid */}
             <section className="max-w-7xl mx-auto px-6 pb-24 space-y-10">
-                {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-30 items-start">
-                    {portfolioVideos.map((video) => (
-                        <PortfolioVideoCard
-                            key={video.id}
-                            video={video}
-                            isPlaying={activeVideoId === video.id}
-                            onPlay={() =>
-                                setActiveVideoId(video.id)
-                            }
-                        />
-                    ))}
-                </div> */}
-
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 items-start mx-8">
                     {portfolioVideos.map((video) => (
                         <PortfolioVideoCard

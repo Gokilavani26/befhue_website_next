@@ -139,9 +139,9 @@ const ProjectsSection = () => {
                     onClick={() => router.push("/portfolio")}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-[#ff002b] text-white px-10 py-4 rounded-full font-denton text-lg md:text-xl font-bold italic tracking-wider shadow-[0_0_20px_rgba(255,0,43,0.3)] hover:shadow-[0_0_30px_rgba(255,0,43,0.5)] transition-all duration-300"
+                    className="bef-bg-red bef-white w-full sm:w-auto px-6 md:px-9 py-4 md:py-[8px] rounded-[24px] font-semibold hover:opacity-90 transition-all active:scale-95 text-base"
                 >
-                    VIEW OUR PORTFOLIO
+                    View Our Portfolio
                 </motion.button>
             </div>
         </div>
