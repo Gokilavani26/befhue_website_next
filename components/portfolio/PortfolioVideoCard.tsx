@@ -10,7 +10,6 @@ export default function PortfolioVideoCard({
         id: number;
         url: string;
         thumbnail: string;
-        category: string;
     };
     isPlaying: boolean;
     onPlay: () => void;

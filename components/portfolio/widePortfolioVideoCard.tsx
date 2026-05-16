@@ -10,7 +10,6 @@ export default function widePortfolioVideoCard({
         id: number;
         url: string;
         thumbnail: string;
-        category: string;
     };
     isPlaying: boolean;
     onPlay: () => void;
