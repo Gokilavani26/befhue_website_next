@@ -144,6 +144,7 @@ const DigitalMarketingPage = () => {
                                 src={"/imgs/digital-marketing/digital.jpg"}
                                 alt="Digital Marketing Growth"
                                 fill
+                                sizes=""
                                 className="object-cover"
                                 priority
                             />

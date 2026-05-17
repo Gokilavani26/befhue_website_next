@@ -1,7 +1,7 @@
 const brochureImg = "/imgs/brandDesignData/brochure.png"
-const logo = "/imgs/brandDesignData/logo.png"
-const packaging = "/imgs/brandDesignData/packaging.png"
-const brand = "/imgs/brandDesignData/brand.png"
+const logo = "/imgs/brandDesignData/logo.webp"
+const packaging = "/imgs/brandDesignData/packing.webp"
+const brand = "/imgs/brandDesignData/brand.webp"
 
 export const brandDesignData = {
     'logo-designing-company-in-coimbatore': {

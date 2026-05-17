@@ -308,7 +308,7 @@ export const servicesData = {
                 { title: "Development", description: "Agile build process with regular updates" },
                 { title: "Launch", description: "Deployment and App Store submission" }
             ],
-            image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&q=80&w=1000",
+            image: image_2,
             reversed: false
         },
         process: [
@@ -665,7 +665,7 @@ export const servicesData = {
                 { title: "Design", description: "Visual concepts" },
                 { title: "Development", description: "Coding and integration" }
             ],
-            image: "https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=1000"
+            image: image_4
         },
         tools: [
             { name: "React", logo: "https://cdn.worldvectorlogo.com/logos/react-2.svg", category: "Frontend" },
@@ -1385,7 +1385,7 @@ export const servicesData = {
             ctaText: "Start Creating",
             ctaLink: "/contact",
             badge: "Storytelling Experts",
-            backgroundImage: "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1000"
+            backgroundImage: image_7
         },
         intro: {
             content: "Content is the foundation of digital marketing. We craft stories that resonate. From blogs to whitepapers, we create content that educates, informs, and converts.",

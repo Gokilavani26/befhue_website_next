@@ -1,8 +1,8 @@
 const adsImg = "/imgs/productionEditingData/ads.png"
-const video_prod = "/imgs/productionEditingData/video_prod.png"
-const video_edit = "/imgs/productionEditingData/video-edit.png"
-const podcast = "/imgs/productionEditingData/podcast.png"
-const corporate = "/imgs/productionEditingData/corporate.png"
+const video_prod = "/imgs/productionEditingData/video_prod.webp"
+const video_edit = "/imgs/productionEditingData/video-edit.webp"
+const podcast = "/imgs/productionEditingData/podcast.webp"
+const corporate = "/imgs/productionEditingData/corporate.webp"
 
 export const productionEditingData = {
     'video-production-services-in-coimbatore': {
